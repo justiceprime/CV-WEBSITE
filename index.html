@@ -1,69 +1,231 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CV-WEBSITE</title>
+    <meta charset="UTF-8">
+    <title>MY RESUME CV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/29265d807b.js" crossorigin="anonymous"></script>
 </head>
-<style>
-    body{
-        background-image: url(aba.jpg);
-    }
-    div{
-        margin-left: 35%;
-        margin-right: 35%;
-        /*border: 2px solid rgb(46, 3, 46);*/
-        /*background-color: rgba(109, 146, 141, 0.781);*/
-        /*background-image: url(ada.jpg);*/
-    }
-    img{
-        padding: 10%;
-    }
-    footer{
-        text-align: center;
-    }
-    h1{
-        text-align: center;
-        color: #C900ff;
-        font-family: Lucida Console;
-    }
-    h4{
-        text-align: center;
-        color: #010f27;
-        font-family: Helvetica;
-    }
-
-</style>
 <body>
-    <div>
-        <p style="align:center;">
-        <img src="pic.jpeg" height="120" width="120">
-
-        </p>
-        <h2><u>PERSONAL INFORMATION</u></h2>
-        <hr>
-        <h4>Name: Justice Onyebuchi</h4>
-        <h4>Email: Justicechibundu17@yahoo.com</h4>
-        <h4>Phone Number: +2349079389300</h4>
-        <h2><u>EDUCATION</u></h2>
-        <hr>
-        <h4>BSc psychology</h4>
-        <h4>ZTM Web-Developer Course</h4>
-        <h2><u>HOBBIES</u></h2>
-        <hr>
-        <h4>Coding</h4>
-        <h4>Piano</h4>
-        <h4>Swimming</h4>
-        <h2><u>SKILLS</u></h2>
-        <hr>
-        <h4>HTML</h4>
-        <h4>CSS</h4>
-        <h4>JAVASCRIPT</h4>
-        <h4>REACT</h4>
-        <h4>SOLIDITY</h4>
+<div class="wrapper">
+    <div class="resume">
+        <div class="left">
+            <div class="img_holder">
+                <img src="pic.jpeg" alt="picture" style="width: 100px">
+            </div>
+            <div class="contact_wrap pb">
+                <div class="title">
+                    Contact
+                </div>
+                <div class="contact">
+                    <ul>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="far fa-address-book"></i>
+                                </div>
+                                <div class="text">+2349079389300</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fas fa-envelope-square"></i>
+                                </div>
+                                <div class="text">justicechibundu17@yahoo.com</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fab fa-twitter-square"></i>
+                                </div>
+                                <div class="text">twitter@justiceprime3</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div class="text">25 grandville drive, Rivers state.</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills_wrap pb">
+                <div class="title">
+                    Skills
+                </div>
+                <div class="skills">
+                    <ul>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="text">HTML</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="text">CSS</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="text">JAVASCRIPT</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="text">REACT.JS</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hobbies_wrap pb">
+                <div class="title">
+                    Hobbies
+                </div>
+                <div class="hobbies">
+                    <ul>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fas fa-laptop"></i>
+                                </div>
+                                <div class="text">Coding</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fas fa-music"></i>
+                                </div>
+                                <div class="text">Piano</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fas fa-table-tennis"></i>
+                                </div>
+                                <div class="text">Tennis</div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="li_wrap">
+                                <div class="icon">
+                                    <i class="fas fa-swimming-pool"></i>
+                                </div>
+                                <div class="text">Swimming</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="name_role">
+                    <div class="name">
+                        Justice Onyebuchi
+                    </div>
+                    <div class="role">
+                        Full-Stack Developer
+                    </div>
+                </div>
+                <div class="about">
+                    I am passionate about front-end and delivering standard webpage interfaces as well as working on my backend skills(Solidity smartcontracts).
+                    Lets create great innovation together.
+                </div>
+            </div>
+            <div class="right_inner">
+                <div class="education">
+                    <div class="title">
+                        Education
+                    </div>
+                    <div class="education_wrap">
+                        <ul>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="date">2018 - present</div>
+                                    <div class="info">
+                                        <p class="info_title">Psychology</p>
+                                        <p class="info_com">Ignatius Ajuru University of Education</p>
+                                        <p class="info_cont">BSc</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="date">2019 - 2020</div>
+                                    <div class="info">
+                                        <p class="info_title">Web Developer cours</p>
+                                        <p class="info_com">ZeroToMastery Academy</p>
+                                        <p class="info_cont"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="date">2019 - 2020</div>
+                                    <div class="info">
+                                        <p class="info_title">REACT.JS</p>
+                                        <p class="info_com">Sololearn</p>
+                                        <p class="info_cont"></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="date">2020 - present</div>
+                                    <div class="info">
+                                        <p class="info_title">Solidity</p>
+                                        <p class="info_com">Cryptozombies.io</p>
+                                        <p class="info_cont"></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="exp">
+                    <div class="title">
+                        Experience
+                    </div>
+                    <div class="exp_wrap">
+                        <ul>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="date">2019 - present</div>
+                                    <div class="info">
+                                        <p class="info_title">Web3Bridge Ambassador/p>
+                                        <p class="info_com">Telegram</p>
+                                        <p class="info_cont">
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
 </body>
-<br>
-<hr>
-
-<footer><h3>THIS IS AN OVERVIEW OF JUSTICEPRIME'S CV-WEBSITE</h3></footer>
 </html>
